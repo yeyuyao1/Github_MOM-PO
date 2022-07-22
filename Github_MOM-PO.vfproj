@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{E5407D75-7E43-496D-898E-382F897653AA}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole" StackReserveSize="2120000000" LargeAddressAware="addrAwareLarge" TerminalServerAware="termSvrAwareYes"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\func_dotmul.f90"/>
+		<File RelativePath=".\func_n3.f90"/>
+		<File RelativePath=".\Gauss_solve_complex.f90"/>
+		<File RelativePath=".\Gauss_solve_real.f90"/>
+		<File RelativePath=".\Github_MOM-PO.f90"/>
+		<File RelativePath=".\sub_Akn.f90"/>
+		<File RelativePath=".\sub_Bk1.f90"/>
+		<File RelativePath=".\sub_BLOCKCHECK.f90"/>
+		<File RelativePath=".\sub_datainitial.f90"/>
+		<File RelativePath=".\sub_Dataprocess.f90"/>
+		<File RelativePath=".\sub_Dataprocess_PO.f90"/>
+		<File RelativePath=".\sub_EdgeCtr.f90"/>
+		<File RelativePath=".\sub_exct.f90"/>
+		<File RelativePath=".\sub_exct_radio.f90"/>
+		<File RelativePath=".\sub_Farfld.f90"/>
+		<File RelativePath=".\sub_FillA.f90"/>
+		<File RelativePath=".\sub_FillB.f90"/>
+		<File RelativePath=".\sub_FillMatrixZ11.f90"/>
+		<File RelativePath=".\sub_gauss_7.f90"/>
+		<File RelativePath=".\sub_gauss_9.f90"/>
+		<File RelativePath=".\sub_Get_T.f90"/>
+		<File RelativePath=".\sub_getctr.f90"/>
+		<File RelativePath=".\sub_getnode.f90"/>
+		<File RelativePath=".\sub_getnorm.f90"/>
+		<File RelativePath=".\sub_initial.f90"/>
+		<File RelativePath=".\sub_Point_blockcheck.f90"/>
+		<File RelativePath=".\sub_PW_blockcheck.f90"/>
+		<File RelativePath=".\sub_relateMatrixZ12.f90"/>
+		<File RelativePath=".\sub_rules.f90"/>
+		<File RelativePath=".\sub_S_calcu.f90"/>
+		<File RelativePath=".\sub_V4S_prmt.f90"/>
+		<File RelativePath=".\sub_vctadd.f90"/>
+		<File RelativePath=".\sub_xmul.f90"/>
+		<File RelativePath=".\sub_Z11.f90"/>
+		<File RelativePath=".\sub_Z12.f90"/></Filter>
+		<File RelativePath=".\ReadMe.txt"/></Files>
+	<Globals/></VisualStudioProject>
